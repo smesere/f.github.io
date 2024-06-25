@@ -10,6 +10,18 @@
         "html-has-lang": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-filter",
+          "-webkit-text-size-adjust",
+          "@-ms-viewport",
+          "-webkit-overflow-scrolling",
+          "@-ms-viewport"
+        ]
+      }
+    ]
   }
 }
